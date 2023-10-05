@@ -1,0 +1,14 @@
+.menu__title__container{
+  color: white;
+}
+.menu__title__container > h1{
+  margin: 10px 10px;
+  font-size: 200px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.menu__title__container > hr{
+  margin: 20px 0 10px 0;
+}
