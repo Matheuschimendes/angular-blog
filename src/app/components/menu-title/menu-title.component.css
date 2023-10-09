@@ -3,7 +3,8 @@
 }
 .menu__title__container > h1{
   margin: 10px 10px;
-  font-size: 200px;
+  font-size: 100px;
+  min-width: 100%;
   display: flex;
   justify-content: center;
 
