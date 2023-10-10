@@ -6,12 +6,20 @@ import { HomeComponent } from './pages/home/home.component';
 const routes: Routes = [
   {
     path:'',
-    component: HomeComponent
+    component:HomeComponent
   },
+  {
+    path: 'content',
+    component:ContentComponent
+  },
+
   {
     path: 'content/:id',
     component:ContentComponent
-  }
+  },
+  {
+    path: '**', redirectTo: ''
+  } // Rota coringa
 ];
 
 @NgModule({

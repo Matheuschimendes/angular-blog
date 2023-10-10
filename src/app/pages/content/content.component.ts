@@ -13,7 +13,7 @@ export class ContentComponent {
   @Input()
   contentPhotoCover:string= ""
   @Input()
-  contentTitle:string= ""
+  contentTitle:string= "Noticias"
   @Input()
   contentDescription:string= ""
   private id:string | null ="0"
