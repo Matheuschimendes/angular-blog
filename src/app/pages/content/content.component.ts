@@ -11,6 +11,8 @@ export class ContentComponent {
   [x: string]: any;
 
   @Input()
+  contentPhotoCapa: string = '';
+  @Input()
   contentPhotoCover: string = '';
   @Input()
   contentTitle: string = '';
@@ -32,5 +34,6 @@ export class ContentComponent {
     this.contentPhotoCover = result.photoCover;
     this.contentTitle = result.title;
     this.contentDescription = result.description;
+
   }
 }

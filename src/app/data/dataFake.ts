@@ -1,4 +1,5 @@
 export const dataFake =[
+
   {
     "id":"1",
     "title":"NOVO HOMEM DE FERRO ANUNCIADO",
