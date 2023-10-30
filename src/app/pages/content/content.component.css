@@ -7,16 +7,18 @@
   align-items: center;
 }
 .content__cover{
-  border: 1px solid wheat;
+
 }
 .content__cover > img{
   width: 500px;
   min-width: 500px;
 }
-.content__description{
+.content__description {
   margin: 10px;
 }
-
+.content__title{
+  color: var(--title);
+}
 .content__description > p{
   color: gray;
 }
