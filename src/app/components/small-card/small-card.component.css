@@ -1,29 +1,31 @@
 .container__small-card{
   width: 100%;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 .container__small-card__content{
   display: flex;
   flex-direction: row;
 }
-.small-card__photo > img{
+.small-card__photo > a > img{
   width: 200px;
   min-width: 200px;
   margin-right: 20px;
 }
-.small-card__title{
-  font-size: 10px;
+.small-card__title > h1 > a{
+  font-size: 20px;
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
+  color: var(--title);
 }
 .container__small-card__separator{
   margin-top: 10px;
+}
+.small-card__description > p > a{
+  font-weight:300;
+  color: var(--description);
 }
 .container{
   display: flex;
   flex-direction: column;
   justify-content: left;
   max-width: 400px;
-
 }

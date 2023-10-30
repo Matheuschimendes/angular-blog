@@ -1,10 +1,9 @@
 <div class="container__small-card">
   <div class="container__small-card__content">
     <div class="small-card__photo">
-      <img
-        src="{{smallphotoCover}}"
-        alt=""
-      />
+      <a [routerLink]="['content', Id]">
+        <img src="{{ smallphotoCover }}" alt="" />
+      </a>
     </div>
     <div class="container">
       <div class="small-card__title">
@@ -21,6 +20,6 @@
     </div>
   </div>
   <div class="container__small-card__separator">
-    <!-- <hr /> -->
+    <hr />
   </div>
 </div>

@@ -1,8 +1,12 @@
 <div class="container__menu-bar">
-  <ul>
-    <li><a [routerLink]="['']">Home</a></li>
-    <li><a [routerLink]="['content/']">Pagina de noticias</a></li>
-    <li><a href="">Github</a></li>
-    <li><a href="">Youtube</a></li>
-  </ul>
+  <div class="container__logo">
+    <a [routerLink]="['']"><h1>Blog</h1></a>
+  </div>
+  <div class="container__list">
+    <ul>
+      <li><a [routerLink]="['']">Inicio</a></li>
+      <li><a [routerLink]="['content']">Conteúdos</a></li>
+
+    </ul>
+  </div>
 </div>

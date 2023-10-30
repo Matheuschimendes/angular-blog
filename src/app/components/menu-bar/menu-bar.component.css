@@ -1,9 +1,24 @@
-
-.container__menu-bar > ul{
+.container__menu-bar{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+  width: 100%;
 }
-
-.container__menu-bar > ul > li{
+.container__logo > a > h1{
+  padding: 10px;
+  color: var(--title);
+}
+.container__menu-bar > .container__list ul{
+  display: flex;
+  flex-direction: row;
+  color: var(--title);
+}
+.container__menu-bar > .container__list ul > li {
   margin: 15px;
+  text-decoration: none;
+  color: var(--title);
+}
+.container__menu-bar > .container__list ul > li > a{
+  color: var(--title);
 }

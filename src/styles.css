@@ -4,8 +4,12 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #111111;
-  color: white;
-  font-family: 'Segoe UI', Tahoma;
+  font-family: 'Clash Display', sans-serif;
+}
+
+:root{
+  --title: white;
+  --description: rgb(189, 189, 189);;
 }
 
 a{
