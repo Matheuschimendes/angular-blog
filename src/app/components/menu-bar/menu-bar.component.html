@@ -1,12 +1,13 @@
-<div class="container__menu-bar">
-  <div class="container__logo">
-    <a [routerLink]="['']"><h1>Blog</h1></a>
+<nav class="navbar" id="navbar">
+  <div class="container__menu-bar" id="nav">
+    <div class="container__logo" id="">
+      <a [routerLink]="['']"><h1>Blog</h1></a>
+    </div>
+    <div class="container__list">
+      <ul>
+        <li><a [routerLink]="['']">Inicio</a></li>
+        <li><a [routerLink]="['content']">Conteúdos</a></li>
+      </ul>
+    </div>
   </div>
-  <div class="container__list">
-    <ul>
-      <li><a [routerLink]="['']">Inicio</a></li>
-      <li><a [routerLink]="['content']">Conteúdos</a></li>
-
-    </ul>
-  </div>
-</div>
+</nav>

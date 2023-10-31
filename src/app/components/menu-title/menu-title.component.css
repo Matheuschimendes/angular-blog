@@ -1,8 +1,8 @@
 .menu__title__container{
   color: white;
+  margin-top: 80px;
 }
 .menu__title__container .menu__title {
-  margin: 10px 10px;
   font-size: 50px;
   min-width: 100%;
   display: flex;
