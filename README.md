@@ -27,6 +27,8 @@
 
 - Introduzido rotas, Arrays de objetos para melhora na integrações de dados para a página, fazendo assim agilizar as alterações pelo usúario sem necessariamente alterar as linhas das páginas principais.
 
+- Integração feita com a API Marvel.
+
 <h2 id="tecnologias">🔧 <b>Ferramentas:</b></h2>
 
 - [Angular](https://angular.io/) v16
