@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img width="1436" alt="Blog Preview" src="https://github.com/Matheuschimendes/angular-blog/assets/93441084/53bce7e4-9d99-4593-9f29-f0af7cec8aa1">
+  <img width="1436" alt="Blog Preview" src="https://github.com/Matheuschimendes/angular-blog/assets/93441084/3bc294b6-bb7d-4abc-9be7-0871aef51120">
 </p>
 
 <h2 id="objetivo">🚀 <b>Objetivo:</b></h2>
@@ -32,6 +32,7 @@
 <h2 id="tecnologias">🔧 <b>Ferramentas:</b></h2>
 
 - [Angular](https://angular.io/) v16
+- [Marvel](https://developer.marvel.com/) API
 - [TypeScript](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html) v5
 - HTML e CSS
 - Git e GitHub
