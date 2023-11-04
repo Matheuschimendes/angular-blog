@@ -3,15 +3,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #111111;
   font-family: 'Clash Display', sans-serif;
 }
 
 :root{
-  --title: white;
-  --description: rgb(189, 189, 189);;
+  --title: rgb(0, 0, 0);
+  --logo: rgb(255, 255, 255);
+  --description: rgb(55, 55, 55);;
 }
 
 a{
   text-decoration: none;
+}
+
+app-all-characters {
+  background-color: black;
+  grid-template-columns: auto auto auto auto;
+  display: grid;
+  gap: 1vw;
+  padding: 5vw;
 }

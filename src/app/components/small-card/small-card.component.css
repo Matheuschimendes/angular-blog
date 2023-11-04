@@ -7,21 +7,23 @@
   flex-direction: row;
 }
 .small-card__photo > a > img{
-  width: 200px;
+  width: 100px;
   min-width: 200px;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 .small-card__title > h1 > a{
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: 400;
   display: flex;
-  color: var(--title);
+  color: var(--description);
+  margin-bottom:10px;
 }
 .container__small-card__separator{
   margin-top: 10px;
 }
 .small-card__description > p > a{
-  font-weight:300;
-  color: var(--description);
+  font-weight: 500;
+  color: var(--title);
 }
 .container{
   display: flex;

@@ -2,6 +2,7 @@ import { Component, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { dataFake } from '../../data/dataFake';
 
+
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',

@@ -1,0 +1,23 @@
+<div class="container__card_sectio2" *ngFor="let characters of allCharacters">
+  <div class="container__card_sectio2__content">
+    <div class="card__sectio2__photo">
+      <a [routerLink]="['allCharacters', Id]">
+        <img src="{{ characters.thumbnail.path }}.jpg" alt="imagem" />
+      </a>
+    </div>
+    <div class="container__grid">
+      <div class="card__sectio2__title">
+        <h1>
+          <a [routerLink]="['allcharacters', Id]">{{ characters.name }}</a>
+        </h1>
+      </div>
+      <div class="card__sectio2__description">
+        <p>
+          <a [routerLink]="['allcharacters', Id]">{{
+            characters.description
+          }}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

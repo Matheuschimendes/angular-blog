@@ -7,22 +7,18 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-
 .big-card__title > h1 > a{
   margin-top: 15px;
-  font-size: 20px;
-  color: var(--title);
-}
-
-.big-card__description {
-  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 100;
+  color: var(--description);
 }
 .big-card__description > p > a{
-  color: var(--description);
-  font-weight: 100;
-  font-size: 15px;
+  color: var(--title);
+  font-size: 20px;
 }
 .big-card__photo > a > img{
   width: 100%;
   max-width: 400px;
+  width: 500px;
 }

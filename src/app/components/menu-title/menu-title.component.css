@@ -9,6 +9,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  color: var(--title);
 
 }
 .menu__title__container .menu__title > img{
@@ -22,12 +23,15 @@
   margin: 20px 0 10px 0;
 }
 
-/* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 900px) {
   .menu__title__container .menu__title {
     margin: 10px 10px;
     width: 400px;
-    display: flex;
-    flex-direction: column;
+    font-size: 30px;
+  }
+  .menu__title__container .menu__title > img{
+    margin: 10px 10px;
+    width: 250px;
+    transition: all .5s ease-in;
   }
 }
